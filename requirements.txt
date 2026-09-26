@@ -1,0 +1,14 @@
+scanpy==1.11.5
+anndata==0.12.19
+leidenalg==0.12.0
+python-igraph==1.0.0
+scikit-learn==1.9.1
+torch==2.14.0
+transformers==4.41.2
+peft==0.11.1
+datasets==5.0.1
+loompy==3.0.8
+huggingface_hub
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5

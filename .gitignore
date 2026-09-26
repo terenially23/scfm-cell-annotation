@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/*.h5ad
+data/geneformer_run/
+data/geneformer_tiny/
+data/geneformer_full/
+data/geneformer_full_log.txt
+
+models/Geneformer-V1-10M/
+models/gene_dictionaries_30m/
+vendor/geneformer/gene_dictionaries_30m/
