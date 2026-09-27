@@ -1,5 +1,7 @@
 # Single-Cell Annotation via a Bio Foundation Model
 
+**[View the results, no setup required →](https://claude.ai/artifact/XXt4pz48QhNxBtRVKPnwBn)**
+
 Compares zero-shot [Geneformer](https://huggingface.co/ctheodoris/Geneformer) cell
 embeddings against a classical scanpy PCA+Leiden baseline for annotating PBMC cell
 types, and serves the foundation-model embeddings through a small FastAPI service
