@@ -21,7 +21,10 @@ import pandas as pd
 import scanpy as sc
 import seaborn as sns
 import torch
-from tdigest import TDigest
+try:
+    from tdigest import TDigest
+except ImportError:
+    TDigest = None
 from tqdm.auto import trange
 
 from . import TOKEN_DICTIONARY_FILE

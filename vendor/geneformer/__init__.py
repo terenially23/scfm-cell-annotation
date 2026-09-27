@@ -32,8 +32,3 @@ from .in_silico_perturber_stats import InSilicoPerturberStats
 from .pretrainer import GeneformerPretrainer
 from .tokenizer import TranscriptomeTokenizer
 
-from . import classifier  # noqa # isort:skip
-from .classifier import Classifier  # noqa # isort:skip
-
-from . import mtl_classifier  # noqa # isort:skip
-from .mtl_classifier import MTLClassifier  # noqa # isort:skip
